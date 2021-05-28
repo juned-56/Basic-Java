@@ -11,3 +11,16 @@ public class Conversion2
     }    
 }
 
+
+//############################# Integer to String Coversion using toString() method  ##############################
+
+public class Conversion2
+{
+    public static void main(String[] args)
+    {
+        int n = 20000;
+        String s = Integer.toString(n);
+        System.out.println(s+100);
+    }
+}
+
